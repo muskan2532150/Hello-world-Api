@@ -7,7 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 
-greetings = ["Hello", "Hi", "Good morning", "Good afternoon", "Good evening"]
+greetings = ["Hello", "Hi", "Good morning", "Good afternoon", "Good evening", "Namaste"]
 
 greetings.each do |greet|
   Greeting.create(message: greet)
